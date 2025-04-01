@@ -1,0 +1,4 @@
+On a utilisé swagger à la place de collection postman, 
+une fois le projet lancé, 
+éxécutez : localhost:3000/api-docs
+dans le navigateur et testez les API du fournisseur d'identité

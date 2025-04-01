@@ -1,0 +1,23 @@
+NB : On peut directement sauter à l'étape 3 si on veut utiliser
+les comptes existants
+
+1-Inscription depuis la page d'inscription
+2-Reception mail : saisie du mail d'inscription en fonction du role souhaité(administrateur ou client)
+3-Connexion de puis la page de connexion
+	Si login faux alors on a droit à 4 essais et au 5eme essai faux il faut réactiver l'autorisation par mail
+	Si login vrai alors envoi de pin par mail et saisie du pin(meme regle de blocage aussi en cas de faux PIN 4 fois)
+4-Acces à la page de gestion de depot/retrait: on soummet un montant de depot/retrait et on attend la boite de dialogue de confirmation
+5-Validation depot/retrait par mail
+6-Acces à la page de trading crypto, on peut effectuer des achats et vente de crypto dedans 
+7-Modification de mdp/role
+
+NB:seul le profil administrateur a accès à la liste de transactions crypto de touts les users,
+l'etat du montant d'achat, vente et du portefeuille entre 2 dates données,
+la gestion et analyse des commissions,
+la validation des dépots et retraits
+
+Pour l'APPLICATION MOBILE:
+-autoriser la reception de notifications pour l'apk installé
+
+
+

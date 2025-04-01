@@ -1,0 +1,4 @@
+{
+    "mail": "rabenaivolucas@gmail.com",
+    "mdp": "securepassword123"
+}

@@ -1,0 +1,10 @@
+Installation npm :
+npm init
+npm install
+npm install pg
+
+excution main test :
+node main.js
+
+deployement serveur test :
+node server.js

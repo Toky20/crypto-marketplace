@@ -1,0 +1,33 @@
+services:
+  db:
+    build: ./postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+
+
+  back:
+    build: ./back
+    ports:
+      - "3000:3000" 
+    working_dir: /app
+    depends_on:
+      - db
+
+  java:
+    build: ./cloud-crypto-back-java
+    ports:
+      - "8080:8080"  # Adaptez le port si nécessaire
+    depends_on:
+      - db  
+      - back    
+
+  
+   
+
+    
+
+
+
+
