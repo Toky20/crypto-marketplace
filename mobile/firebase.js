@@ -3,7 +3,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 // Configuration Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAN5JK628wb2Fy2ZAiENU_2nKsKhz0huvk",
+  apiKey: "",
   authDomain: "essai-36122.firebaseapp.com",
   projectId: "essai-36122",
   storageBucket: "essai-36122.firebasestorage.app",
@@ -15,3 +15,4 @@ if(!firebase.apps.length){
   firebase.initializeApp(firebaseConfig);
 }
 export { firebase };
+
