@@ -1,16 +1,42 @@
-# Instructions pour lancer les applications
+# Crypto Marketplace
 
-1. **Construire le projet par la commande "docker-compose up -d"**
-   - Attendre le building du projet jusqu'à ce que touts les containers 
-   ont un statut "created"
+Crypto Marketplace is a multi-platform trading system built to demonstrate a **real-world N-tier architecture**.
 
-2. **S'assurer que la BDD a bien été initalisée et démmarée**
-   - Exécuter la commande "docker ps" et copier le nom du conteneur de la base de données
-   - Exécuter la commande "docker logs -f (suivi du nom du conteneur de la base de données)"
-   - Vérifier que le script de base a bien été installé et qu'à la fin
-   le message "database system is ready to accept connections" apparait
+The project includes a web platform, a mobile application, and a standalone identity provider, all communicating through REST APIs.
 
-3. **Executer l'url localhost:8080 dans le navigateur**
-	un user à l'email de rojo.rabenanahary@gmail.com et mdp : 123456 est dispo 	
+---
 
+## Architecture
 
+- Identity Provider (Node.js, JWT)
+- Web Trading Platform (Java Servlets)
+- Mobile App (React Native)
+- Docker-based local infrastructure
+- Firebase for real-time features
+
+---
+
+## Features
+
+- User registration and authentication
+- Simulated crypto trading
+- Wallet and transaction history
+- Back-office validation
+- Mobile push notifications
+
+---
+
+## Tech Stack
+
+- Java 8 (Servlets)
+- Node.js (Express)
+- React Native (Expo)
+- PostgreSQL
+- Docker
+- Firebase
+
+---
+
+## Notes
+
+All crypto operations are simulated. No blockchain interaction.
