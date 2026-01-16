@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "cryptoflow",
+    "slug": "cryptoflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/crypto.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/crypto.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Cette application a besoin d'accéder à votre galerie pour sélectionner des images.",
+        "NSCameraUsageDescription": "Cette application a besoin d'accéder à votre appareil photo pour prendre des photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/crypto.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ],
+      "package": "com.lucasbenaivo.cryptoflow"
+    },
+    "web": {
+      "favicon": "./assets/crypto.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0ae8d832-c188-480a-b6be-d4ee2ffa4f2f"
+      }
+    }
+  }
+}
